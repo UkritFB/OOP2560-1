@@ -19,7 +19,7 @@ namespace CSharpBasic
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "bool";
+            textBox1.Text = "bool22";
             textBox2.Text = sizeof(bool).ToString();
   
         }
