@@ -21,6 +21,8 @@ namespace CSharpBasic
         {
             textBox1.Text = "bool22";
             textBox2.Text = sizeof(bool).ToString();
+            textBox3.Text = "Ture";
+            textBox4.Text = "False";
   
         }
 
