@@ -241,7 +241,7 @@
             // 
             this.button9.Location = new System.Drawing.Point(17, 138);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 23);
+            this.button9.Size = new System.Drawing.Size(106, 23);
             this.button9.TabIndex = 7;
             this.button9.Text = "double";
             this.button9.UseVisualStyleBackColor = true;
