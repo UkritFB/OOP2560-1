@@ -201,19 +201,21 @@
             // 
             this.button13.Location = new System.Drawing.Point(17, 343);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 23);
+            this.button13.Size = new System.Drawing.Size(106, 23);
             this.button13.TabIndex = 11;
             this.button13.Text = "ulong";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button12
             // 
             this.button12.Location = new System.Drawing.Point(17, 314);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 23);
+            this.button12.Size = new System.Drawing.Size(106, 23);
             this.button12.TabIndex = 10;
             this.button12.Text = "uint";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button11
             // 

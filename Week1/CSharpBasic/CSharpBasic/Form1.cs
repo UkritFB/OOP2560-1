@@ -107,5 +107,21 @@ namespace CSharpBasic
             textBox3.Text = short .MinValue.ToString();
             textBox4.Text = short .MaxValue.ToString();
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "uint";
+            textBox2.Text = sizeof(uint ).ToString();
+            textBox3.Text = uint .MinValue.ToString();
+            textBox4.Text = uint .MaxValue.ToString();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "ulong";
+            textBox2.Text = sizeof(ulong ).ToString();
+            textBox3.Text = ulong .MinValue.ToString();
+            textBox4.Text = ulong .MaxValue.ToString();
+        }
     }
 }
