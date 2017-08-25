@@ -83,5 +83,21 @@ namespace CSharpBasic
             textBox3.Text = decimal .MinValue.ToString();
             textBox4.Text = decimal .MaxValue.ToString();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "double";
+            textBox2.Text = sizeof(double).ToString();
+            textBox3.Text = double .MinValue.ToString();
+            textBox4.Text = double .MaxValue.ToString();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "int";
+            textBox2.Text = sizeof(int).ToString();
+            textBox3.Text = int.MinValue.ToString();
+            textBox4.Text = int.MaxValue.ToString();
+        }
     }
 }
