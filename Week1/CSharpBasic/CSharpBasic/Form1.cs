@@ -67,5 +67,10 @@ namespace CSharpBasic
             textBox4.Text = float.MaxValue.ToString();
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
