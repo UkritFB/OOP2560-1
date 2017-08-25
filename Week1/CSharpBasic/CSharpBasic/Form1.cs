@@ -99,5 +99,13 @@ namespace CSharpBasic
             textBox3.Text = int.MinValue.ToString();
             textBox4.Text = int.MaxValue.ToString();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "short";
+            textBox2.Text = sizeof(short ).ToString();
+            textBox3.Text = short .MinValue.ToString();
+            textBox4.Text = short .MaxValue.ToString();
+        }
     }
 }
