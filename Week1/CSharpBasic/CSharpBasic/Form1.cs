@@ -70,7 +70,10 @@ namespace CSharpBasic
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            textBox1.Text = "byte";
+            textBox2.Text = sizeof(byte).ToString();
+            textBox3.Text = byte.MinValue.ToString();
+            textBox4.Text = byte.MaxValue.ToString();
         }
     }
 }
